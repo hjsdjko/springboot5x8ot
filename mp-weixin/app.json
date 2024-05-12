@@ -1,0 +1,119 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/huzhufabuleixing/list",
+    "pages/huzhufabuleixing/add-or-update",
+    "pages/huzhufabuleixing/detail",
+    "pages/hubanghuzhu/list",
+    "pages/hubanghuzhu/add-or-update",
+    "pages/hubanghuzhu/detail",
+    "pages/wupinfenlei/list",
+    "pages/wupinfenlei/add-or-update",
+    "pages/wupinfenlei/detail",
+    "pages/xianzhijiaoyi/list",
+    "pages/xianzhijiaoyi/add-or-update",
+    "pages/xianzhijiaoyi/detail",
+    "pages/goumaiwupin/list",
+    "pages/goumaiwupin/add-or-update",
+    "pages/goumaiwupin/detail",
+    "pages/ziliaoleibie/list",
+    "pages/ziliaoleibie/add-or-update",
+    "pages/ziliaoleibie/detail",
+    "pages/xuexiziliao/list",
+    "pages/xuexiziliao/add-or-update",
+    "pages/xuexiziliao/detail",
+    "pages/shudong/list",
+    "pages/shudong/add-or-update",
+    "pages/shudong/detail",
+    "pages/wenzhangfenlei/list",
+    "pages/wenzhangfenlei/add-or-update",
+    "pages/wenzhangfenlei/detail",
+    "pages/faxian/list",
+    "pages/faxian/add-or-update",
+    "pages/faxian/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/menu/list",
+    "pages/menu/add-or-update",
+    "pages/menu/detail",
+    "pages/discusshubanghuzhu/list",
+    "pages/discusshubanghuzhu/add-or-update",
+    "pages/discusshubanghuzhu/detail",
+    "pages/discussxianzhijiaoyi/list",
+    "pages/discussxianzhijiaoyi/add-or-update",
+    "pages/discussxianzhijiaoyi/detail",
+    "pages/discussxuexiziliao/list",
+    "pages/discussxuexiziliao/add-or-update",
+    "pages/discussxuexiziliao/detail",
+    "pages/discussfaxian/list",
+    "pages/discussfaxian/add-or-update",
+    "pages/discussfaxian/detail",
+    "common/linkOthers/linkOthers",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于智能推荐的校园社区服务微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#FFC618",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/hubanghuzhu/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "互帮互助"
+      },
+      {
+        "pagePath": "pages/faxian/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "chooseLocation",
+    "getLocation"
+  ],
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "z-swiper-item": "/components/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "z-swiper": "/components/zebra-swiper/components/z-swiper/z-swiper",
+    "music-play": "/components/musicPlay/musicPlay"
+  }
+}
